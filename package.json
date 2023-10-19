@@ -22,7 +22,7 @@
     "url": "https://github.com/webAravis/nest-sftp.git"
   },
   "publishConfig": {
-    "registry": "https://registry.npmjs.org/",
+    "registry": "https://npm.pkg.github.com/",
     "tag": "latest"
   },
   "scripts": {
