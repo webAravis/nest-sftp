@@ -1,6 +1,6 @@
 {
-  "name": "nest-sftp",
-  "author": "Benjamin Main",
+  "name": "@avmj/nest-sftp",
+  "author": "Arnaud Valot",
   "description": "Nest Framework wrapper around ssh2-sftp-client",
   "license": "MIT",
   "main": "dist/index.js",
@@ -10,16 +10,16 @@
     "sftp",
     "lambda"
   ],
-  "homepage": "https://github.com/benMain/nest-sftp",
+  "homepage": "https://github.com/webAravis/nest-sftp",
   "bugs": {
-    "url": "https://github.com/benMain/nest-sftp/issues"
+    "url": "https://github.com/webAravis/nest-sftp/issues"
   },
   "files": [
     "dist"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/benMain/nest-sftp.git"
+    "url": "https://github.com/webAravis/nest-sftp.git"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org/",
@@ -44,14 +44,14 @@
     "ssh2-streams": "^0.4.10"
   },
   "devDependencies": {
-    "@nestjs/cli": "^9.0.0",
-    "@nestjs/common": "^9.0.0",
-    "@nestjs/config": "^2.2.0",
-    "@nestjs/core": "^9.0.0",
-    "@nestjs/schematics": "^9.0.0",
-    "@nestjs/testing": "^9.0.0",
-    "@semantic-release/changelog": "^5.0.1",
-    "@semantic-release/git": "^9.0.0",
+    "@nestjs/cli": "^10.1.18",
+    "@nestjs/common": "^10.0.5",
+    "@nestjs/config": "^3.1.1",
+    "@nestjs/core": "^10.0.5",
+    "@nestjs/schematics": "^10.0.2",
+    "@nestjs/testing": "^10.0.5",
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/git": "^10.0.1",
     "@types/jest": "28.1.8",
     "@types/node": "^16.0.0",
     "@types/ssh2-sftp-client": "^7.0.1",
@@ -70,7 +70,7 @@
     "reflect-metadata": "^0.1.13",
     "rimraf": "^3.0.2",
     "rxjs": "^7.2.0",
-    "semantic-release": "^19.0.5",
+    "semantic-release": "^22.0.5",
     "supertest": "^6.1.3",
     "ts-jest": "28.0.8",
     "ts-loader": "^9.2.3",
